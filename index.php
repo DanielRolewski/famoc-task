@@ -1,4 +1,4 @@
-<?php
 
-
-?>
+  <?php
+    $config = require('config.php');
+  ?>
