@@ -16,6 +16,8 @@ function sortCities($citiesList, $index) {
         return $x["windSpeed"] > $y["windSpeed"] ? -1 : 1;
       });
       break;
+    default:
+      print("Please insert correct parameter!");
   }
   return $citiesList;
 }
