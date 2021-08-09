@@ -26,7 +26,7 @@ function calculateScore($weatherList, $citiesList) {
       }
       $parameterType++;
     }
-    array_push($scoreList, [$citiesList, $score]);
+    array_push($scoreList, [$citiesList[$i], $score]);
   }
   return $scoreList;
 }
